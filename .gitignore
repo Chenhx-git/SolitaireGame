@@ -1,0 +1,38 @@
+# --- 通用垃圾文件 ---
+.vs/
+Debug/
+Release/
+x64/
+x86/
+build/
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.db
+*.ipch
+*.ap
+*.obj
+*.log
+*.tlog
+*.idb
+*.pdb
+*.ilk
+*.exe
+*.lib
+*.dll
+*.pch
+*.ncb
+
+# --- Cocos2d-x 特有 ---
+proj.win32/Debug.win32/
+proj.win32/Release.win32/
+bin/
+cocos2d/cocos/2d/Debug.win32/
+cocos2d/cocos/2d/Release.win32/
+**/Debug.win32/
+**/Release.win32/
+
+# --- 系统文件 ---
+.DS_Store
+Thumbs.db
